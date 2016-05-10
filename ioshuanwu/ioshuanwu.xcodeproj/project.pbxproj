@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		613966901C8EB0810005FD34 /* VideoPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6139668F1C8EB0810005FD34 /* VideoPlayView.m */; };
+		61A3C9761CE1D329001062C3 /* gyzViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A3C9751CE1D329001062C3 /* gyzViewController.m */; };
 		61F1377C1C87D7DC00DF0A8E /* LoaderURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F137791C87D7DC00DF0A8E /* LoaderURLConnection.m */; };
 		61F1377D1C87D7DC00DF0A8E /* VideoRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F1377B1C87D7DC00DF0A8E /* VideoRequestTask.m */; };
 		61F1377F1C881F8F00DF0A8E /* FMGVideoPlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61F1377E1C881F8F00DF0A8E /* FMGVideoPlayView.xib */; };
@@ -97,6 +98,8 @@
 		55EC696B1CC6E3C28389CD0F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6139668E1C8EB0810005FD34 /* VideoPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayView.h; sourceTree = "<group>"; };
 		6139668F1C8EB0810005FD34 /* VideoPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayView.m; sourceTree = "<group>"; };
+		61A3C9741CE1D329001062C3 /* gyzViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gyzViewController.h; sourceTree = "<group>"; };
+		61A3C9751CE1D329001062C3 /* gyzViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gyzViewController.m; sourceTree = "<group>"; };
 		61F137781C87D7DC00DF0A8E /* LoaderURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoaderURLConnection.h; sourceTree = "<group>"; };
 		61F137791C87D7DC00DF0A8E /* LoaderURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoaderURLConnection.m; sourceTree = "<group>"; };
 		61F1377A1C87D7DC00DF0A8E /* VideoRequestTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoRequestTask.h; sourceTree = "<group>"; };
@@ -254,6 +257,8 @@
 		61A3C9731CE1D228001062C3 /* 未命名文件夹 2 */ = {
 			isa = PBXGroup;
 			children = (
+				61A3C9741CE1D329001062C3 /* gyzViewController.h */,
+				61A3C9751CE1D329001062C3 /* gyzViewController.m */,
 			);
 			path = "未命名文件夹 2";
 			sourceTree = "<group>";
@@ -849,6 +854,7 @@
 				D181E42B1C30E002007B6709 /* GetVideoDataTools.m in Sources */,
 				D10CE6C61C3A0ACE00A89D81 /* CFDanmaku.m in Sources */,
 				D106A4A41C32779600FF6707 /* UIScrollView+MJRefresh.m in Sources */,
+				61A3C9761CE1D329001062C3 /* gyzViewController.m in Sources */,
 				D106A4A31C32779600FF6707 /* UIScrollView+MJExtension.m in Sources */,
 				D106A49E1C32779600FF6707 /* MJRefreshGifHeader.m in Sources */,
 				D181E4231C30D734007B6709 /* HeardButton.m in Sources */,
