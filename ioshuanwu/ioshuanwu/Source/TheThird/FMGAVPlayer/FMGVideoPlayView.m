@@ -118,7 +118,7 @@
     
     
     NSArray *audioTracks = [self.currentItem.asset tracksWithMediaType:AVMediaTypeAudio];
-    NSLog(@"着呢很好看");
+    NSLog(@"zheshiyige");
     NSMutableArray *allAudioParams = [NSMutableArray array];
     for (AVAssetTrack *track in audioTracks) {
         AVMutableAudioMixInputParameters *audioInputParams =
