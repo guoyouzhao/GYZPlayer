@@ -60,7 +60,7 @@ static NSString *ID = @"cell";
     _shrinkBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0  , 20, 20)];
     _shrinkBtn.alpha = 0;
     [_shrinkBtn addTarget:self action:@selector(removePlay) forControlEvents:UIControlEventTouchUpInside];
-    _shrinkBtn.backgroundColor = [UIColor grayColor];
+    _shrinkBtn.backgroundColor = [UIColor redColor];
 }
 - (void)removePlay {
 
@@ -84,7 +84,7 @@ static NSString *ID = @"cell";
         [self.navigationController presentViewController:self.fullVc animated:NO completion:^{
             [self.fullVc.view addSubview:self.fmVideoPlayer];
             _fmVideoPlayer.center = self.fullVc.view.center;
-            
+            _shrinkBtn.hidden = YES;
             [UIView animateWithDuration:0.2 delay:0.0 options:UIViewAnimationOptionLayoutSubviews animations:^{
                 _fmVideoPlayer.frame = self.fullVc.view.bounds;
                 self.fmVideoPlayer.danmakuView.frame = self.fmVideoPlayer.frame;
@@ -103,6 +103,7 @@ static NSString *ID = @"cell";
             
                 _fmVideoPlayer.frame = CGRectMake(kScreenWidth-200, kScreenHeight-100  , 200, 100);
                 _shrinkBtn.alpha = 1;
+                _shrinkBtn.hidden = NO;
                 [_fmVideoPlayer addSubview:_shrinkBtn];
                 [self.view addSubview:_fmVideoPlayer];
             }
